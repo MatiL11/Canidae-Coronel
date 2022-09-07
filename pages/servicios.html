@@ -5,7 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="../pages/media/Logo_Canidae_Perfil.jpg">
-        <link rel="stylesheet" type="text/css" href="../styles.css">    
+        <link rel="stylesheet" type="text/css" href="../styles.css">
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">    
         <title>Canidae</title>
     </head>
     <body>
@@ -13,17 +14,23 @@
         <header>
 
             <div class="container__header">
+                
+                <div class="logo">
+
+                    <img src="../pages/media/logo-sin-fondo 192x192.png" alt="logo">
+
+                </div>
             
                 <div class="menu">
 
                     <nav>
 
-                        <ul>
+                        <ul class="nav">
 
                             <li><a href="../index.html">Inicio</a></li>
                             <li><a href="../pages/productora.html">Productora</a></li>
                             <li><a href="../pages/proyectos.html">Proyectos</a></li>
-                            
+
                         </ul>
 
                     </nav>
@@ -31,7 +38,7 @@
                 </div>
 
                 <div class="header__contacto">
-                    <input type="button" class="btn__header-contacto" value="Contactanos">
+                    <button type="button" class="btn btn-outline-light">CONTACTANOS</button>
                 </div>
 
             </div>
@@ -41,14 +48,31 @@
         <main>
             <!--servicios-->
             <div class="grid-layout__servicios">
-                       
-                <h1>Nuestro servicio</h1>
-
-                <img class="img-servicios" src="" alt="img">
-                <img class="img-servicios" src="" alt="img">
                 
-                <img class="img-servicios" src="" alt="img">
-                <img class="img-servicios" src="" alt="img">
+                <h1>Nuestros servicios</h1>
+
+                <article class="article text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tempore officiis recusandae culpa molestias id! Delectus, corporis fugit aut dolorum nisi aliquam odio unde perferendis vitae atque, officia quis repellendus!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquam nulla ex tempora ipsum saepe eligendi, eveniet, reprehenderit sint ab temporibus totam sunt nam voluptas animi placeat dolore repudiandae dolorum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores veritatis asperiores ab perferendis fugiat similique, molestias eaque molestiae quidem nulla minus laudantium deleniti tempora sed illo reprehenderit? Dolore, earum deserunt!</p>
+                </article>
+                <article class="article imgs">
+                    <div>
+                        <img src="./media/Logo_Canidae_Perfil.jpg" alt="" class="img-article">
+                    </div>
+                    <div>
+                        <img src="./media/imagen16.png" alt="" class="img-article camara">
+                    </div>
+                </article>
+
+                <aside class="sidebar">
+                    <div>
+                        <img src="./media/imagen3.jpg" alt="" class="img-sidebar">
+                    </div>
+                    <div>
+                        <img src="./media/imagen4.jpg" alt="" class="img-sidebar">
+                    </div>
+                </aside>
                 
             </div>
                         
@@ -97,6 +121,8 @@
             </div>
 
         </footer>
+
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
 
     </body>
 </html>
