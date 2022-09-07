@@ -457,6 +457,10 @@ header{
         grid-row: span 2;
     }
 }
+/*estilos pagina contacto*/
+.formulario{
+    padding: 100px;
+}
 
 /*estilos del footer*/
 .pie-pagina{
