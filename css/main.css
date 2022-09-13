@@ -25,6 +25,80 @@ html {
     background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
     background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px; }
 
+header {
+  height: 100px;
+  background-color: #000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+  header .container__header {
+    max-width: 100vw;
+    height: 100%;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .container__header .logo img {
+      width: 100%; }
+    header .container__header .menu nav ul {
+      display: flex; }
+      header .container__header .menu nav ul li {
+        list-style: none;
+        padding: 0 20px; }
+        header .container__header .menu nav ul li a {
+          text-transform: uppercase;
+          font-size: 15px;
+          text-decoration: none;
+          color: #f4f7f5; }
+    header .container__header .menu .nav * {
+      box-sizing: border-box;
+      transition: all .35s ease; }
+    header .container__header .menu .nav a {
+      padding: .5em .8em;
+      color: rgba(255, 255, 255, 0.5);
+      position: relative;
+      text-decoration: none;
+      font-size: 20px; }
+      header .container__header .menu .nav a::before, header .container__header .menu .nav a::after {
+        content: '';
+        height: 14px;
+        width: 14px;
+        position: absolute;
+        transition: all .35s ease;
+        opacity: 0; }
+      header .container__header .menu .nav a::before {
+        content: '';
+        right: 0;
+        top: 0;
+        border-top: 1px solid #7b7263;
+        border-right: 1px solid #7b7263;
+        transform: translate(-100%, 50%); }
+      header .container__header .menu .nav a:after {
+        content: '';
+        left: 0;
+        bottom: 0;
+        border-bottom: 1px solid #7b7263;
+        border-left: 1px solid #7b7263;
+        transform: translate(100%, -50%); }
+      header .container__header .menu .nav a:hover:before, header .container__header .menu .nav a:hover:after {
+        transform: translate(0, 0);
+        opacity: 1; }
+      header .container__header .menu .nav a:hover {
+        color: #7b7263; }
+    header .container__header .btn__header-contacto {
+      text-transform: uppercase;
+      padding: 14px 40px;
+      border: none;
+      background-color: #f4f7f5;
+      color: #000;
+      font-weight: 500;
+      font-size: 15px;
+      cursor: pointer;
+      transition: background, color, 300ms;
+      border-radius: 2px; }
+      header .container__header .btn__header-contacto:hover {
+        background: #7b7263;
+        color: #f4f7f5; }
+
 .container__hero {
   display: flex;
   flex-direction: column;
