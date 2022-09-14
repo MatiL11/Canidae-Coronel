@@ -8,16 +8,13 @@
         0deg,
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-    ) ,url("./pages/media/hero.jpg");
+    ) ,url("../pages/media/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     .text__hero{
         text-transform: uppercase;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flex;
         width: 100%;
         height: 100%;
         h1{

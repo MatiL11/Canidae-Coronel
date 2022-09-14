@@ -455,16 +455,6 @@ header{
     grid-row: 5 / 8;
 }
 
-@media (max-width: 600px) {
-    .cuadrada {
-        grid-column: span 2;
-        grid-row: span 2;
-    }
-
-    .alta{
-        grid-row: span 2;
-    }
-}
 /*estilos pagina contacto*/
 .formulario{
     padding: 100px;

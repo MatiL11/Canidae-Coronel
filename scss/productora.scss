@@ -1,0 +1,16 @@
+.informacion__productora{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    color: #000;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+    h1{
+        text-decoration: underline;
+    }
+    p{
+        margin-top: 50px;
+        text-align: center;
+    }
+}
