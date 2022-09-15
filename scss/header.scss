@@ -24,7 +24,6 @@ header{
                         padding: 0 20px;
                         a{
                             text-transform: uppercase;
-                            font-size: 15px;
                             text-decoration: none;
                             color: $coloruno;
                         }
@@ -38,10 +37,10 @@ header{
                 }
                 a{
                     padding: .5em .8em;
-                    color: rgba(255,255,255,.5);
+                    color: $coloruno;
                     position: relative;
                     text-decoration: none;
-                    font-size: 20px;
+                    font-size: 16px;
                     &::before,
                     &::after{
                         content: '';
@@ -55,16 +54,16 @@ header{
                         content: '';
                         right: 0;
                         top: 0;
-                        border-top: 1px solid $colordos;
-                        border-right: 1px solid $colordos;
+                        border-top: 1px solid $coloruno;
+                        border-right: 1px solid $coloruno;
                         transform: translate(-100%, 50%);
                     }
                     &:after{
                         content: '';
                         left: 0;
                         bottom: 0;
-                        border-bottom: 1px solid $colordos;
-                        border-left: 1px solid $colordos;
+                        border-bottom: 1px solid $coloruno;
+                        border-left: 1px solid $coloruno;
                         transform: translate(100%, -50%)
                     }
                     &:hover:before,
@@ -73,7 +72,7 @@ header{
                         opacity: 1;
                     }
                     &:hover{
-                        color: $colordos;
+                        color: $colorhover;
                     }
                 }
             }

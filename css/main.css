@@ -46,7 +46,6 @@ header {
         padding: 0 20px; }
         header .container__header .menu nav ul li a {
           text-transform: uppercase;
-          font-size: 15px;
           text-decoration: none;
           color: #f4f7f5; }
     header .container__header .menu .nav * {
@@ -54,10 +53,10 @@ header {
       transition: all .35s ease; }
     header .container__header .menu .nav a {
       padding: .5em .8em;
-      color: rgba(255, 255, 255, 0.5);
+      color: #f4f7f5;
       position: relative;
       text-decoration: none;
-      font-size: 20px; }
+      font-size: 16px; }
       header .container__header .menu .nav a::before, header .container__header .menu .nav a::after {
         content: '';
         height: 14px;
@@ -69,21 +68,21 @@ header {
         content: '';
         right: 0;
         top: 0;
-        border-top: 1px solid #7b7263;
-        border-right: 1px solid #7b7263;
+        border-top: 1px solid #f4f7f5;
+        border-right: 1px solid #f4f7f5;
         transform: translate(-100%, 50%); }
       header .container__header .menu .nav a:after {
         content: '';
         left: 0;
         bottom: 0;
-        border-bottom: 1px solid #7b7263;
-        border-left: 1px solid #7b7263;
+        border-bottom: 1px solid #f4f7f5;
+        border-left: 1px solid #f4f7f5;
         transform: translate(100%, -50%); }
       header .container__header .menu .nav a:hover:before, header .container__header .menu .nav a:hover:after {
         transform: translate(0, 0);
         opacity: 1; }
       header .container__header .menu .nav a:hover {
-        color: #7b7263; }
+        color: #ffffff6c; }
     header .container__header .btn__header-contacto {
       text-transform: uppercase;
       padding: 14px 40px;
@@ -119,7 +118,8 @@ header {
     height: 100%; }
     .container__hero .text__hero h1 {
       color: #f4f7f5;
-      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+      font-size: 3em; }
     .container__hero .text__hero p {
       color: #f4f7f5;
       text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
@@ -371,3 +371,17 @@ header {
       width: 90%;
       border-radius: 10px;
       border: #000 2px solid; }
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .formulario .btn-primary {
+    background-color: #f4f7f5;
+    border: 1px solid #000;
+    color: #000; }
+    .formulario .btn-primary:hover {
+      background-color: #000;
+      color: #f4f7f5;
+      border: 1px solid #000; }
