@@ -43,3 +43,17 @@
         }
     }
 }
+
+@media screen and (max-width: 800px){
+    .container__hero{
+        height: 100vh;
+        .text__hero{
+            h1{
+                font-size: 2em;
+            }
+            p{
+                font-size: 1em;
+            }
+        }
+    }
+}

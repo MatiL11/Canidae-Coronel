@@ -70,3 +70,27 @@
         color: #000;
     }
 }
+
+@media screen and (max-width: 800px){
+    .pie-pagina{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .footer__informacion-1{
+            display: flex;
+            .footer-box{
+                figure{
+                    img{
+                        display: none;
+                    }
+                }
+                h3{
+                    font-size: 15px;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

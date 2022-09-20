@@ -95,3 +95,33 @@ header{
         }
     }
 }
+
+@media screen and (max-width: 800px){
+    header{
+        width: 100%;
+        .logo{
+            display: none;
+        }
+        .container__header{
+            flex-direction: row;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+            font-size: 10px;
+            .menu{
+                nav{
+                    ul{
+                        li{
+                            a{
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .header__contacto{
+            padding-right: 40px;
+        }
+    }
+}
