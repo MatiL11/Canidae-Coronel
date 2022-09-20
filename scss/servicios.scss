@@ -32,18 +32,18 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            padding-top: 50px;
         }
         .img-article{
             width: 50%;
-            border-radius: 5px;
-            border: #000 1px solid;
         }
     }
     .text{
         display: flex;
         flex-direction: column;
         text-align: center;
-        border: #000 1px solid;
+        border: #000 2px solid;
+        border-radius: 4px;
         background-color: white;
         padding: 10px;
     }
@@ -65,7 +65,7 @@
     .img-sidebar{
         width: 400px;
         border-radius: 5px;
-        border: #000 1px solid;
+        
      }
     
 }
