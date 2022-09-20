@@ -20,6 +20,6 @@
   "homepage": "https://github.com/MatiL11/Canidae-Coronel#readme",
   "devDependencies": {
     "node-sass": "^7.0.3",
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.20"
   }
 }
