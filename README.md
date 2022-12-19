@@ -1,3 +1,3 @@
 # Canidae-Coronel
 
-Proyecto pagina web de coderhouse 
+Proyecto pagina web de fotografia
